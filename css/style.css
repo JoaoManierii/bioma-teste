@@ -20,7 +20,7 @@ a {
     height: 88px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; 
 }
 
 .header-logo {
@@ -32,7 +32,7 @@ a {
     background-image: url(../images/MainBackground.png);
     background-size: cover;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
     justify-content: center;
     min-height: 70vh;
     padding: 0 6rem;
@@ -271,7 +271,7 @@ a {
     color: #148337;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1440px) { 
     .colabore .video {
         width: 40rem;
     }
