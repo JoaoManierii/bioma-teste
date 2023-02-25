@@ -43,7 +43,7 @@ a {
     display: flex;
     justify-content: space-between;
     min-height: 70vh;
-    background: linear-gradient(90deg, #D8D8D8 70%, #FDB66B 30%);
+    background: rgb(236, 233, 233);
     white-space: nowrap;
 }
 
@@ -124,7 +124,7 @@ a {
     display: flex;
     justify-content: space-between;
     min-height: 70vh;
-    background: linear-gradient(90deg, #F1F3F8 70%, #539D71 30%);
+    background: linear-gradient(90deg, #F1F3F8 70%, #c04106 30%);
     white-space: nowrap;
 }
 
@@ -160,6 +160,9 @@ a {
     border-radius: 1rem;
 }
 
+.img-plant img{
+    max-width: 22vh;
+}
 .img-plant .texts {
     display: flex;
     flex-direction: column ;
@@ -234,7 +237,13 @@ a {
 }
 
 .footer .redes a svg:active {
-    color: #148337;
+    color: #eb4b01
+}
+
+.corujao {
+    font-weight: 500;
+    font-size: 5.25rem;
+    line-height: 2.5rem;
 }
 
 .title {
@@ -251,7 +260,7 @@ a {
 
 .button {
     text-decoration: none;
-    background-color: #0053E0;
+    background-color: #eb4b01;
     color: whitesmoke;
     padding: 10px 15px;
     white-space: nowrap;
@@ -264,11 +273,11 @@ a {
 }
 
 .button:hover {
-    background-color: #1D72FE;
+    background-color: #eb4b01;
 }
 
 .green-text {
-    color: #148337;
+    color: #0ab440;
 }
 
 @media (max-width: 1440px) { 
